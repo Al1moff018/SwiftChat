@@ -1,3 +1,6 @@
+// server.js boshida shu borligiga ishonch hosil qiling:
+require('dotenv').config();
+console.log('MONGODB_URI:', process.env.MONGODB_URI); // Debug uchun
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
